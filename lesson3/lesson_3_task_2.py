@@ -4,9 +4,6 @@ class Smartphone:
   self.phone_model = phone_model
   self.phone_number = phone_number
 
-# Пример создания объекта класса Smartphone
-my_smartphone = Smartphone("Apple", "iPhone 13 Pro", "+79123456789")
-
 # Создание списка из пяти объектов Smartphone
 catalog = [
  Smartphone("Samsung", "Galaxy S23", "+79123456781"),
