@@ -16,6 +16,10 @@ blue_button_driver.click()
 
 sleep(3)
 
+# нажимаем кнопку во всплывающем окне
+    driver.switch_to.alert.accept()
+
+
 # Запускаем скрипт три раза подряд
 for i in range(3):
     driver.get('http://uitestingplayground.com/classattr')
