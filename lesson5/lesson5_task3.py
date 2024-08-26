@@ -16,6 +16,9 @@ blue_button_chrome.click()
 
 sleep(3)
 
+# нажимаем кнопку во всплывающем окне
+    chrome.switch_to.alert.accept()
+
 # Запускаем скрипт три раза подряд
 for i in range(3):
     chrome.get('http://uitestingplayground.com/classattr')
